@@ -15,21 +15,16 @@
     left: 10px;
     color: #FFF;
     font-size: 25px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: sans-serif;
     margin-left: 90px;
 }
-.content{
+.content li{
     width:500px;
-    height: 300px;
+    /* height: 300px; */
     background-color:orange;
     overflow: auto;
-}
-.content::-webkit-scrollbar { 
-    display: none; 
-}
-.content ul{
-    padding:0;
-    margin:0;
+    margin-left: -40px;
+    margin-top: -20px;
 }
 #input{
     width: 488px;
@@ -42,7 +37,7 @@ p{
     color: white;
     font-family: sans-serif;
     padding-left: 30px;
-    font-size: 24px;
+    font-size: 28px;
 }
 i{
     color: blueviolet;
